@@ -36,18 +36,15 @@ header {
   border-radius: 10px; height: 306px; width: 1140px;
   margin-top: 100px; display: flex; flex-direction: column; justify-content: space-around; align-items: center;
 }
-.stats .numbers {
+.numbers {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 20px; width: 100%; margin-bottom: 40px;
 }
 .numbers div {
   text-align: center;
 }
-.numbers h3 {
-  font-size: 2rem;
-  color: #4f46e5;
-}
+
 .testimonials .cards {
   display: flex;
   flex-wrap: wrap;
@@ -134,5 +131,8 @@ footer nav a {
 height: 328px; width: 403px;
 }
 #h2 {
-  font-size: 40px;
+  font-size: 40px; margin-top: 40px;
+}
+.stats-h3 {
+  font-size: 70px; color: #4f46e5 
 }
