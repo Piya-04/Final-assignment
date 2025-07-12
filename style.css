@@ -90,9 +90,10 @@ header {
   border-radius: 5px;
 }
 footer {
+  height: 428px; width: 1140px;
   background: white;
   text-align: center;
-  padding: 40px 10%;
+  padding: 140px;
 }
 footer nav {
   margin-top: 10px;
